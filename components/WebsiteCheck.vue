@@ -1,6 +1,6 @@
 <template>
     <div class="main" :style="{ background: $vuetify.theme.themes.light.background2 }">
-        <v-container class="d-flex flex-column align-center col-12 mt-16">
+        <v-container class="d-flex flex-column align-center col-12 mt-16 text-center">
             <h3 class="mt-4">Перевірка домену у базі даних CS-21-1</h3>
             <v-col class="col-12 col-md-8 col-lg-6 mt-4 mb-0">
                 <v-text-field background-color="background3" filled dense rounded height="50" dark hide-details placeholder="Введіть домен (без назви протоколу). Наприклад: google.com"></v-text-field>
